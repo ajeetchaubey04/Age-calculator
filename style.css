@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  line-height: 1.7;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.new-item {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+#result {
+  font-size: 24px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+label,
+li,
+input {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+/* ################### utility classes########### */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lg-heading {
+  font-size: 3.5rem;
+}
+.md-heading {
+  font-size: 2.2rem;
+}
+.text-red {
+  color: #e63946;
+}
+.text-light {
+  color: #f4f4f4;
+}
+.text-black {
+  color: #333333;
+}
+.text-gray {
+  color: #555555;
+}
+.bg-dark {
+  background-color: #263238;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0.5em 0;
+}
+.btn-primary {
+  background-color: #f4f4f4;
+  border-radius: 10em;
+}
+.btn-primary:hover {
+  background-color: #ddd;
+}
+.btn-secondary {
+  border: 2px solid #e63946;
+  border-radius: 1.5em;
+  color: #e63946;
+  background: #f4f4f4;
+}
+.btn-secondary:hover {
+  background-color: #ddd;
+}
+
+/* ############ Header Styling ######### */
+
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("image1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  padding: 1rem;
+}
+.navbar .logo {
+  float: left;
+  font-size: 3.5rem;
+}
+.navbar .nav-item {
+  float: right;
+  margin-top: 1rem;
+}
+.navbar .nav-item {
+  display: inline-block;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.navbar a:link,
+.navbar a:visited {
+  color: #f4f4f4;
+}
+.navbar a {
+  padding: 0.3rem;
+}
+.navbar a:hover {
+  border-bottom: 1px solid white;
+}
+
+.navbar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.navbar .logo {
+  border-right: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* ######################## header content styling ##################### */
+
+.header-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-content p {
+  text-transform: initial;
+}
+/* .header-content1 {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+} */
